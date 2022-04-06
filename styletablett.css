@@ -1,0 +1,37 @@
+header {
+    background-color: rgb(40, 155, 11);
+    padding-top: 15%;
+    padding-bottom: 15%;
+}
+
+nav li {
+    color: aliceblue;
+}
+
+main p {
+    color: darkblue;
+}
+
+
+
+.feed {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
+}
+.feed1, .feed2 , .feed3, .feed4, .feed5, .feed6{
+    border: solid;
+    margin-top: 10%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    padding: 50px 50px 50px 50px;
+}
+
+footer {
+    background-color: rgb(94, 221, 55);
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
