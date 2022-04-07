@@ -12,21 +12,14 @@ main p {
     color: darkblue;
 }
 
-
-
 div {
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	align-content: center;
-}
-div{
     border: solid;
-    margin-top: 10%;
-    margin-right: 15%;
-    margin-bottom: 5%;
+    margin: 10% 10%;
     padding: 50px 50px 50px 50px;
 }
 
