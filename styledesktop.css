@@ -12,7 +12,7 @@ main p {
     color: darkblue;
 }
 
-div {
+.feed {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

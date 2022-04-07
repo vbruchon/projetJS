@@ -14,7 +14,7 @@ main p {
 
 
 
-div {
+.feed {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -22,7 +22,7 @@ div {
     align-items: center;
     align-content: stretch;
 }
-div{
+.feed{
     border: solid;
     margin-top: 10%;
     margin-bottom: 5%;
