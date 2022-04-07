@@ -14,7 +14,7 @@ main p {
 
 
 
-.feed {
+div {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -22,7 +22,7 @@ main p {
 	align-items: center;
 	align-content: center;
 }
-.feed1, .feed2 , .feed3, .feed4, .feed5, .feed6{
+div{
     border: solid;
     margin-top: 10%;
     margin-right: 15%;
