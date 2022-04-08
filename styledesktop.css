@@ -2,6 +2,8 @@ header {
     background-color: firebrick;
     padding-top: 15%;
     padding-bottom: 15%;
+    width: 100%;
+    height: 25%;
 }
 
 nav li {
@@ -12,7 +14,7 @@ main p {
     color: darkblue;
 }
 
-div {
+.feed {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;

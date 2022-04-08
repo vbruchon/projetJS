@@ -21,6 +21,7 @@ fetch(API_URL)
 
         // Create div 
         let newDiv = document.createElement("div");
+        newDiv.className = 'feed';
         document.querySelector("main").append(newDiv);
 
         // Create Title in newDiv
@@ -37,15 +38,5 @@ fetch(API_URL)
         let urlLink = document.createElement("p");
         urlLink.innerHTML = url;
         newDiv.appendChild(urlLink);
-        
-        
-        
-        //newDiv.innerHTML = ("<p>");
-        //let h = newDiv.createElement("h3");
-        /*let img = newDiv.createElement("").append({ image });
-        let publ = newDiv.createElement("p").append({ publish });*/
-        //document.querySelector("main").append(newDiv);
-        //document.querySelector("main").append(newDiv).appendChild(h, img, publ);
-        // je selectionne la balise main, appele la méthode append() qui ajoute une div a chaque tour de boucle dans main
     }
 }
