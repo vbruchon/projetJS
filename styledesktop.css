@@ -27,6 +27,11 @@ main p {
     padding: 50px 50px 50px 50px;
 }
 
+.feed img{
+    height: 450px;
+    width: auto;
+}
+
 footer {
     background-color: rgb(126, 124, 0);
     padding-top: 10%;
