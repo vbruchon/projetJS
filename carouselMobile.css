@@ -1,3 +1,6 @@
+#blocCarousel{
+    width: 100%;
+}
 /*
 This is the visible area of you carousel.
 Set a width here to define how much items are visible.
@@ -6,8 +9,11 @@ Position must be relative!
 */
 .jcarousel {
     position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
-    width: 600px;
+    width: 100%;
     height : 450px;
 }
  
@@ -34,4 +40,8 @@ have a fixed width and height (but it's not required).
     /* Required only for block elements like <li>'s */
     float: left;
 }
- 
+
+#blocCarousel button{
+    background-color: rgb(26, 110, 246);
+    
+}

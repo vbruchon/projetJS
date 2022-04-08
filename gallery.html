@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="stylemobile.css" media="screen and (max-width: 425px)">
 	<link rel="stylesheet" href="styledesktop.css" media="screen and (min-width: 425px)">
-	<link rel="stylesheet" href="caroussel.css">
+	<link rel="stylesheet" href="carouselMobile.css" media="screen and (max-width: 425px)">
+	<link rel="stylesheet" href="carousseldesktop.css" media="screen and (min-width: 425px)">
 
-	<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>	
-	<script src="caroussel.js"></script>
-	<script src="scriptcarousel.js"></script>
+
 	<title>Gallery</title>
 </head>
 
@@ -25,9 +25,11 @@
 		</nav>
 	</header>
 
-<main>
-	<p>Bienvenue sur la page Gallery</p>
+	<main>
+		<p>Bienvenue sur la page Gallery</p>
+		<!--<div id="blocCarousel">
 	<div class="jcarousel">
+		
     <ul>
         <li><img src="img/aurore1.jpg" alt="photo d'une aurore boréal"></li>
 		<li><img src="img/aurore2.jpg" alt="photo d'une aurore boréal"></li>
@@ -35,21 +37,43 @@
 		<li><img src="img/aurore4.jpg" alt="photo d'une aurore boréal"></li>
 		<li><img src="img/aurore5.jpg" alt="photo d'une aurore boréal"></li>
     </ul>
-</div>
-</main>
+	</div>
+	<a class ="jcarousel-prev" href="#"><button>Précédent</button></a>
+    <a class ="jcarousel-next" href="#"><button>Suivant</button></a>
+</div>!-->
+		<div class="wrapper">
+			<div class="jcarousel-wrapper">
+				<div class="jcarousel">
+					<ul>
+						<li><img src="img/aurore1.jpg" alt="photo d'une aurore boréal"></li>
+						<li><img src="img/aurore2.jpg" alt="photo d'une aurore boréal"></li>
+						<li><img src="img/aurore3.jpg" alt="photo d'une aurore boréal"></li>
+						<li><img src="img/aurore4.jpg" alt="photo d'une aurore boréal"></li>
+						<li><img src="img/aurore5.jpg" alt="photo d'une aurore boréal"></li>
+					</ul>
+				</div>
+				<a class="jcarousel-prev" href="#"><button>Précédent</button></a>
+				<a class="jcarousel-next" href="#"><button>Suivant</button></a>
+			</div>
+		</div>
+	</main>
 
-<footer>
-	<ul>
-		<li><a href="#">Acceuil</a></li>
-		<li><a href="#">Gallery</a></li>
-		<li><a href="#">Game</a></li>
-	</ul>
-	<p>Copyright @2022</p>
-</footer>
+	<footer>
+		<ul>
+			<li><a href="#">Acceuil</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Game</a></li>
+		</ul>
+		<p>Copyright @2022</p>
+	</footer>
 
-<!--<script type="text/javascript" src="/path/to/jquery.js"></script>
+	<!--<script type="text/javascript" src="/path/to/jquery.js"></script>
 <script type="text/javascript" src="/path/to/jquery.jcarousel.js"></script>!-->
 
-
+	<script src="https://code.jquery.com/jquery-3.6.0.js"
+		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+	<script src="caroussel.js"></script>
+	<script src="scriptcarousel.js"></script>
 </body>
+
 </html>
