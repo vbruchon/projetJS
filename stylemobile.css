@@ -30,7 +30,10 @@ main p {
     margin-bottom: 5%;
     padding: 50px 50px 50px 50px;
 }
-
+.feed img{
+    height: 350px;
+    width: 250px;
+}
 footer {
     background-color: aqua;
     padding-top: 10%;
