@@ -6,10 +6,6 @@ header {
     height: 25%;
 }
 
-nav li {
-    color: aliceblue;
-}
-
 /* Dropdown Button */
 .dropbtn {
     background-color: #3498DB;
@@ -58,8 +54,6 @@ nav li {
 main p {
     color: darkblue;
 }
-
-
 
 .feed {
     display: flex;
