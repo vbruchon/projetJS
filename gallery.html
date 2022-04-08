@@ -17,11 +17,14 @@
 <body>
 	<header>
 		<nav>
-			<ul>
-				<li><a href="index.html">Acceuil</a></li>
-				<li><a href="gallery.html">Gallery</a></li>
-				<li><a href="game.html">Game</a></li>
-			</ul>
+			<div class="dropdown">
+				<button onclick="myFunction()" class="dropbtn">Menu</button>
+				<div id="myDropdown" class="dropdown-content">
+					<a href="index.html">Acceuil</a>
+					<a href="gallery.html">Gallery</a>
+					<a href="game.html">Jeux</a>
+				</div>
+			</div>
 		</nav>
 	</header>
 
@@ -74,6 +77,8 @@
 		integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 	<script src="caroussel.js"></script>
 	<script src="scriptcarousel.js"></script>
+	<script src="dropdown.js"></script>
+
 </body>
 
 </html>

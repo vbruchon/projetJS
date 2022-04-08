@@ -12,12 +12,13 @@ fetch(API_URL)
  * transforme en response.json pour qu'elle soit lisible.
  */
 
- function createFeed(resultatFetch) { // result de fetch
+ function createFeed(blogs) { // result de fetch
 
-    for (let i = 0; i < resultatFetch.length; i++) {
-        let title = resultatFetch[i].title;
-        let summary = resultatFetch[i].summary;
-        let url = resultatFetch[i].url;
+    for (let i = 0; i < blogs.length; i++) {
+        let title = blogs[i].title;
+        let img = blogs[i].imageUrl;
+        let summary = blogs[i].summary;
+        let url = blogs[i].url;
 
         // Create div 
         let newDiv = document.createElement("div");
@@ -28,6 +29,11 @@ fetch(API_URL)
         let titre = document.createElement("h3");
         titre.innerHTML= title;
         newDiv.append(titre);
+
+        // Create img in newDiv
+        let image = document.createElement("img");
+        image.src = img;
+        newDiv.append(image);
  
         //Create summary in newDiv
         let resume = document.createElement("p");

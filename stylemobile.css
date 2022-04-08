@@ -76,6 +76,11 @@ main p {
     padding: 50px 50px 50px 50px;
 }
 
+.feed image{
+    width: 100px;
+    height: 50px;
+}
+
 footer {
     background-color: aqua;
     padding-top: 10%;

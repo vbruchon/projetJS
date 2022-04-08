@@ -30,7 +30,7 @@
         });
     });
 })(jQuery);
-
+/*
 $(function () {
     $(function () {
         $('.jcarousel').jcarousel({
@@ -53,4 +53,4 @@ $(function () {
     $('.jcarousel-next').jcarouselControl({
         cible: '+=2'
     });
-});
+});*/
