@@ -55,6 +55,19 @@ main p {
     color: darkblue;
 }
 
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+label {
+  font-size: 180%;
+}
+input{
+  font-size: 130%;
+}
 .feed {
 	display: flex;
 	flex-direction: column;
