@@ -37,4 +37,7 @@ function createGallery(images) {
 
     }
 }
+function deleteGallery(){
+
+}
 

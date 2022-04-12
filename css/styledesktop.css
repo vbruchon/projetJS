@@ -70,6 +70,11 @@ main p {
     height: 450px;
     width: auto;
 }
+.image image{
+  width: 25px;
+  height: 25px;
+  display: block;  
+  }
 
 footer {
     background-color: rgb(126, 124, 0);
