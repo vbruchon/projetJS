@@ -68,6 +68,16 @@ label {
 input{
   font-size: 130%;
 }
+.formArticle {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+    border: solid;
+    margin: 10% 10%;
+    padding: 50px 50px 50px 50px;
+}
 .feed {
 	display: flex;
 	flex-direction: column;

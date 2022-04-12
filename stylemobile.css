@@ -59,6 +59,18 @@ main p {
 form{
     margin-left: 30%;
 }
+.formArticle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  border: solid;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 50px 50px 50px 50px;
+}
 .feed {
     display: flex;
     flex-direction: column;
@@ -66,8 +78,6 @@ form{
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-}
-.feed{
     border: solid;
     margin-top: 10%;
     margin-bottom: 5%;
