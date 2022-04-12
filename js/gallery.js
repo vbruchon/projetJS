@@ -32,12 +32,29 @@ function createGallery(images) {
 
         // Create img in newDiv
         let image = document.createElement("img");
+        image.id = "img";
         image.src = url_img;
         divNew.append(image);
 
+        //Create delete button
+        let deleteGalery = document.createElement("button");
+        deleteGalery.className = "delete_button";
+        deleteGalery.textContent = "Delete";
+        divNew.appendChild(deleteGalery);
     }
-}
-function deleteGallery(){
+
 
 }
+
+btn_delete = document.getElementsByClassName("delete_button");
+console.log(btn_delete);
+
+for (let i = 0; i < btn_delete.length; i++) {
+    btn_delete[i].addEventListener("click", (event) => {
+        event.preventDefault();
+        remove("image")
+    })
+
+}
+
 
