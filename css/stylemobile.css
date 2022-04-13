@@ -6,10 +6,6 @@ header {
     height: 25%;
 }
 
-nav li {
-    color: aliceblue;
-}
-
 /* Dropdown Button */
 .dropbtn {
     background-color: #3498DB;
@@ -60,6 +56,21 @@ main p {
     color: darkblue;
 }
 
+form{
+    margin-left: 30%;
+}
+.formArticle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  border: solid;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 50px 50px 50px 50px;
+}
 .feed {
     display: flex;
     flex-direction: column;
@@ -67,8 +78,6 @@ main p {
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-}
-.feed{
     border: solid;
     margin-top: 10%;
     margin-bottom: 5%;
