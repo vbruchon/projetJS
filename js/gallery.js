@@ -13,7 +13,6 @@ fetch(req)
     });
 
 
-
 function createGallery(images) {
 
     for (let i = 0; i < 6; i++) {
@@ -29,7 +28,6 @@ function createGallery(images) {
         divNew.className = 'image';
         newSection.append(divNew);
 
-
         // Create img in newDiv
         let image = document.createElement("img");
         image.id = "img";
@@ -42,8 +40,6 @@ function createGallery(images) {
         deleteGalery.textContent = "Delete";
         divNew.appendChild(deleteGalery);
     }
-
-
 }
 
 btn_delete = document.getElementsByClassName("delete_button");
@@ -52,7 +48,7 @@ console.log(btn_delete);
 for (let i = 0; i < btn_delete.length; i++) {
     btn_delete[i].addEventListener("click", (event) => {
         event.preventDefault();
-        remove("image")
+        console.log(event);
     })
 
 }

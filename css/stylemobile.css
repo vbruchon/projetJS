@@ -7,6 +7,7 @@ header {
     height: 25%;
 }
 
+<<<<<<< HEAD:css/stylemobile.css
 nav li {
     color: aliceblue;
 }
@@ -15,6 +16,9 @@ main p {
 }
 
 /*--------------------------------------------DROPDOWN MENU-------------------------------------*/
+=======
+/* Dropdown Button */
+>>>>>>> 5-create-dynamic-form:stylemobile.css
 .dropbtn {
     background-color: #3498DB;
     color: white;
@@ -61,7 +65,29 @@ main p {
   .show {display:block;}
 /*----------------------------------------------FIN DROPDOWN MENU-----------------------------------------*/
 
+<<<<<<< HEAD:css/stylemobile.css
 /*----------------------------------------------FEED---------------------------------------------------*/
+=======
+main p {
+    color: darkblue;
+}
+
+form{
+    margin-left: 30%;
+}
+.formArticle {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: stretch;
+  border: solid;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  padding: 50px 50px 50px 50px;
+}
+>>>>>>> 5-create-dynamic-form:stylemobile.css
 .feed {
     display: flex;
     flex-direction: column;
@@ -69,8 +95,6 @@ main p {
     justify-content: space-between;
     align-items: center;
     align-content: stretch;
-}
-.feed{
     border: solid;
     margin-top: 10%;
     margin-bottom: 5%;
